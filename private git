@@ -1,0 +1,7 @@
+git init
+echo "# VPN Manager" > README.md
+git add . VPN Manager
+git commit -m "Initial commit with README file"
+git remote add origin https://github.com/mrbunnycrypto/vpn-manager.git
+git branch -M main
+git push -u origin main
